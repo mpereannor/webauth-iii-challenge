@@ -1,11 +1,5 @@
 const jwt = require('jsonwebtoken');
 
-// const findPassword = username =>
-//   db("users")
-//     .where({ username })
-//     .select("password")
-//     .first();
-
 const generateToken = user => {
 
     const payload = {
@@ -24,5 +18,4 @@ const generateToken = user => {
         return result;
 }
         
-
 module.exports = generateToken;

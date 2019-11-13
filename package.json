@@ -25,5 +25,8 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.20.1",
     "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
   }
 }
